@@ -41,10 +41,10 @@ public class Exemple_2 {
             if (sort.containsKey(item.getValue())){
                 int x = sort.get(item.getValue());
                 x = x + 1;
-                sort.put(item.getKey(), x);
+                sort.put(item.getValue(), x);
             }
             else{
-                sort.put(item.getKey(), 1);
+                sort.put(item.getValue(), 1);
             }
         }
 
